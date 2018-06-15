@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Press+Start+2P');
+
+.App {
+  text-align: center;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.pizza {
+  position: relative;
+  z-index: 1;
+  top: 250px; 
+  display: flex;
+  color: white;
+  font-size: 28px;
+}
+.title1 {
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color: #dd3e54;
+}
+.title2 {
+  font-family: 'Bangers', cursive;
+  font-size: 60px;
+  color: #2C7744;
+  line-height: 0;
+}
+.subtitle {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+}
