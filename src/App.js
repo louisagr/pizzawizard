@@ -52,7 +52,7 @@ class App extends Component {
         <h1 className="animated fadeInLeft title1">P I Z Z A</h1>
         <h1 className="animated fadeInRight title2">W I Z A R D</h1>
         <PizzaForm onInputChange={this.onInputChange} onButtonSubmit={this.onButtonSubmit} />
-        <div className="pizza center" id="pizza"></div>
+        <div className="pizza center grow" id="pizza"></div>
         <PizzaReko imageUrl={this.state.imageUrl} />
       </div>
     );

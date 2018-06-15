@@ -1,11 +1,11 @@
 import React from 'react';
-import pizzawizard from './pizzawizard.jpg';
+import pizzawizard from './pizzawizard.png';
 
 const PizzaForm = ({ onInputChange, onButtonSubmit }) => {
     return (
         <div>
-            <img style={{width: "250px"}} alt="Sorcier Pizza" src={pizzawizard}/>
-            <p className='animated flash infinite subtitle hot-pink'>
+            <img className="animated rollIn" style={{width: "250px"}} alt="Sorcier Pizza" src={pizzawizard}/>
+            <p className='animated flash infinite subtitle'>
                 {'Ce petit sorcier détecte les pizzas !'}
             </p>
             <div className='center'>
